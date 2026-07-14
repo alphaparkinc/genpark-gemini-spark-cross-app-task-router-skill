@@ -1,0 +1,27 @@
+{
+  "name": "genpark-gemini-spark-cross-app-task-router-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Gemini Spark cross-app task router.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "google",
+    "gemini",
+    "routing"
+  ],
+  "inputs": {
+    "source_app": {
+      "type": "string"
+    },
+    "task_type": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "target_app": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
